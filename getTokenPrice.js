@@ -1,6 +1,8 @@
+const fetch = require('node-fetch');
+
 const getTokenPrice = async (contract) => {
     let url = `https://api.miaswap.io/report/currency-detail?address=${contract}`;
-    console.log(url)
+    // console.log(url)
     let response = await fetch(url);
     let data = await response.json();
     let t = data.error_code;
@@ -15,7 +17,7 @@ let formatNumber = (data,d) => data.slice(0, Math.min(data.indexOf('.') + d, dat
 
 const returnMessage = (data) => {
     //you are the best, copilot
-    console.log(data)
+    // console.log(data)
     let message = `Token: ${data.symbol} - ${data.name}
 Price: ${formatNumber(data.price,6)} USD
 Change 24h: ${formatNumber(data.change_percent,3)} %
