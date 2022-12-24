@@ -90,7 +90,7 @@ bot.on('message', (msg) => {
     let data = msg.text.trim();
     let user = msg.from.id;
     if (user == parseInt(process.env.ADMIN_ID)) {
-        if (data.toLowerCase().startsWith('sa ')) {
+        if (data.toLowerCase().startsWith('sa')) {
             let chatId = msg.chat.id;
             bot(chatId, 'Xin chào tất cả mọi người ạ ❤️', { reply_to_message_id: msg.message_id });
         }
