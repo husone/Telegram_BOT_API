@@ -23,7 +23,8 @@ Price: ${formatNumber(data.price,6)} USD
 Change 24h: ${formatNumber(data.change_percent,3)} %
 Volume 24h: ${formatNumber(data.volume,2)} USD
 Volume 7d: ${formatNumber(data.volume_week,2)} USD
-Liquidity: ${formatNumber(data.liquidity,2)} USD`;
+Liquidity: ${formatNumber(data.liquidity,2)} USD
+Dữ liệu được lấy từ miaswap.io`;
     return message;
 }
 

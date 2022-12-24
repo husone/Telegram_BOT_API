@@ -19,6 +19,8 @@ map.set('BUSD', '0xdfB5E8a4AC08E46258A12AbE737bba5D8c452508');
 map.set('ATH', '0x4B99Fa351143007a246616C4d0b538E62899CA11');
 map.set('WCI', '0x7c63574650F35e0a5253E665Ba9C7c7ccf181b86');
 map.set('HERA', '0x992B7DEeed37FE38808afEc9E81d5B8Af7Bc2d27');
+map.set('BTC','0x935765Ad27a1af00f73097c998A9fb721D2d7790');
+map.set('ETH','0xB4373ebB073A4DcbA47e567d075a9583Fa3C763e');
 
 bot.on("polling_error", console.log);
 
@@ -88,7 +90,7 @@ bot.on('message', (msg) => {
     let data = msg.text.trim();
     let user = msg.from.id;
     if (user == parseInt(process.env.ADMIN_ID)) {
-        if (data.toLowerCase().startsWith('sa')) {
+        if (data.toLowerCase().startsWith('sa ')) {
             let chatId = msg.chat.id;
             bot(chatId, 'Xin chào tất cả mọi người ạ ❤️', { reply_to_message_id: msg.message_id });
         }
