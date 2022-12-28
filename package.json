@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "npm install && npm install forever -g && forever start main.js && forever list"
+    "build": "npm install && npm install forever -g && forever start main2.js && forever list"
   },
   "dependencies": {
     "dotenv": "^16.0.3",
