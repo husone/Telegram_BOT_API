@@ -2,7 +2,6 @@ const fetch = require('node-fetch');
 
 const getTokenPrice = async (contract) => {
     let url = `https://api.miaswap.io/report/currency-detail?address=${contract}`;
-    // console.log(url)
     let response = await fetch(url);
     let data = await response.json();
     let t = data.error_code;
