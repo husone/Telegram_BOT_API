@@ -32,7 +32,7 @@ bot.on("polling_error", console.log);
 // Check admin  
 let isAdmin = (user) => (user == parseInt(process.env.ADMIN_ID));
 
-
+    
 //Hello world
 bot.on('message', (msg) => {
     let data = msg.text.trim();

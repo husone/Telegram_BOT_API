@@ -8,5 +8,36 @@
     "forever": "^4.0.3",
     "node-fetch": "^2.6.7",
     "node-telegram-bot-api": "^0.60.0"
-  }
+  },
+  "name": "onuschainpricebot",
+  "version": "1.1.0",
+  "description": "This is a telegram bot for token tracking in Onuschain",
+  "main": "main.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/husone/Telegram_BOT_API.git"
+  },
+  "keywords": [
+    "onuschain",
+    "onus",
+    "onusapp",
+    "telegramapi",
+    "telegramnodeapi",
+    "api",
+    "telegram",
+    "nodejs",
+    "blockchain",
+    "token",
+    "erc20",
+    "contract",
+    "smartcontract",
+    "husone"
+  ],
+  "author": "husone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/husone/Telegram_BOT_API/issues"
+  },
+  "homepage": "https://github.com/husone/Telegram_BOT_API#readme"
 }
