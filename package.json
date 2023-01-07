@@ -4,6 +4,7 @@
   },
   "dependencies": {
     "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
     "forever": "^4.0.3",
     "node-fetch": "^2.6.7",
     "node-telegram-bot-api": "^0.60.0"
