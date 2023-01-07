@@ -28,7 +28,7 @@ const returnMessage = (data) => {
     let statistics = data.statistics;
     let message = `Token: *${data.symbol} - ${data.name}*
 Price: *${statistics.price} VNDC*
-Volume 24h: *${data.volume, 3 + " " + data.volumeCurrency}*
+Volume 24h: *${data.volume + " " + data.volumeCurrency}*
 Change 1h: *${formatNumber(statistics.priceChangePercentage1h, 4)} %*
 Change 24h: *${formatNumber(statistics.priceChangePercentage24h, 4)} %*
 Change 7d: *${formatNumber(statistics.priceChangePercentage7d, 4)} %*
