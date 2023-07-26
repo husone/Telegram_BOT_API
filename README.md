@@ -8,7 +8,7 @@ Firstly, clone this project:
 `git clone https://github.com/husone/Telegram_BOT_API.git`
 
 Install packages and run script: \
-`npm i`\
+`npm i`
 
 `npm run main`
 
