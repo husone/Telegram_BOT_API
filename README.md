@@ -13,7 +13,7 @@ Install packages and run script:
 
 ## Usage
 
-Get token list: `/getAll`
+Get token list: ```/getAll```
 Remove token: `/remove {token symbol}`
 Add token: `/add {token symbol} {token contract address}`
 Get token price on Onus app: `/pa {token symbol}`
